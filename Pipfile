@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+allennlp = "==0.7"
+tensorflow = "==1.5"
+tensorboard = "==1.14"
+sklearn = "*"
+scikit-learn = "==0.20"
+spacy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
